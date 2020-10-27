@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "258030533804",
+    "firebase_url": "https://e-sports-92648.firebaseio.com",
+    "project_id": "e-sports-92648",
+    "storage_bucket": "e-sports-92648.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258030533804:android:39bc9ab41aca2bbf5fb309",
+        "android_client_info": {
+          "package_name": "user.example.annunakigaming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258030533804-ru1pjlqo63601rasul0ht45bv89vdhv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "user.example.annunakigaming",
+            "certificate_hash": "9a5bf6cc820e07290466c149cca97842b877e244"
+          }
+        },
+        {
+          "client_id": "258030533804-mtg09urmue85mg9k4bn8n8ha3dhuu10f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6HMUgNaWhjplcJ52BX0jfQxIR4EIhQsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258030533804-mtg09urmue85mg9k4bn8n8ha3dhuu10f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

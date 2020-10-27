@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/select_product_image2"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Add New Games and Gaming Platforms"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/playstation_4"
+            android:layout_width="134dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ps4"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ms_xbox_1"
+            android:layout_width="139dp"
+            android:layout_height="100dp"
+            android:src="@drawable/xbox_1"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/playstation_5"
+            android:layout_width="117dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ps5"
+            tools:ignore="ContentDescription"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/ms_xbox_360"
+            android:layout_width="134dp"
+            android:layout_height="100dp"
+            android:src="@drawable/xbox_360"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/playstation_3"
+            android:layout_width="139dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ps3"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/mobile_gaming"
+            android:layout_width="117dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mobile"
+            tools:ignore="ContentDescription"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/nintendo_switch"
+            android:layout_width="134dp"
+            android:layout_height="100dp"
+            android:src="@drawable/nintendo"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/playstation_vita"
+            android:layout_width="139dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ps_vita"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
