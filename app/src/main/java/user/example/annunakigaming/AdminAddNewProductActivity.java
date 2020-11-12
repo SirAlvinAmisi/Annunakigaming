@@ -127,6 +127,11 @@ public class AdminAddNewProductActivity extends AppCompatActivity{
 
     private void StoreProductInformation()
     {
+        loadingBar.setTitle("Add New Product");
+        loadingBar.setMessage("Dear Admin, please wait while we are adding the new product.");
+        loadingBar.setCanceledOnTouchOutside(false);
+        loadingBar.show();
+
         Calendar calendar = Calendar.getInstance();
 
         SimpleDateFormat currentDate = new SimpleDateFormat("MMM dd, yyyy");
@@ -164,6 +169,7 @@ public class AdminAddNewProductActivity extends AppCompatActivity{
                         if (!task.isSuccessful())
                         {
                             throw task.getException();
+
                         }
 
                         downloadImageUrl = filePath.getDownloadUrl().toString();
@@ -206,6 +212,7 @@ public class AdminAddNewProductActivity extends AppCompatActivity{
                     {
                         if (task.isSuccessful())
                         {
+
                             Intent intent = new Intent(AdminAddNewProductActivity.this, AdminCategoryActivity.class);
                             startActivity(intent);
 
