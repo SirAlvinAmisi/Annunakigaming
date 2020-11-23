@@ -25,6 +25,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import Prevalent.Prevalent;
 import de.hdodenhof.circleimageview.CircleImageView;
 import io.paperdb.Paper;
 
@@ -77,10 +78,9 @@ public class HomeActivity extends AppCompatActivity
         TextView userNameTextView = headerView.findViewById(R.id.user_profile_name);
         CircleImageView profileImageView = headerView.findViewById(R.id.user_profile_image);
 
-        /*userNameTextView.setText(Prevalent.currentOnlineUser.getName());
-        Picasso.get().load(Prevalent.currentOnlineUser.getImage()).placeholder(R.drawable.profile).into(profileImageView);
+        userNameTextView.setText(Prevalent.currentOnlineUser.getName());
+        /*Picasso.get().load(Prevalent.currentOnlineUser.getImage()).placeholder(R.drawable.profile).into(profileImageView);
 */
-
         recyclerView = findViewById(R.id.recycler_menu);
         recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
@@ -170,7 +170,15 @@ public class HomeActivity extends AppCompatActivity
         {
 
         }
-        else if (id == R.id.nav_groups)
+        else if (id == R.id.nav_challenge)
+        {
+
+        }
+        else if (id == R.id.nav_alerts)
+        {
+
+        }
+        else if (id == R.id.nav_tourneys)
         {
 
         }
